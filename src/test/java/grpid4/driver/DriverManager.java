@@ -22,6 +22,8 @@ import java.util.concurrent.TimeUnit;
 
 
 public class DriverManager {
+
+    //Amut
     public static WebDriver driver;
     private String browser = "firefox";
 
