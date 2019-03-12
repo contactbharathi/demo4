@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ac5081-eaf0-431b-aa17-6ecc907a34fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/grpid4/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/grpid4/pages/HeaderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,12 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1436" />
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/pages/HeaderPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -214,7 +216,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552427069231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552427907782" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -250,7 +252,7 @@
       <option name="PACKAGE_NAME" value="grpid4" />
       <option name="MAIN_CLASS_NAME" value="grpid4.RunCucumberClasstest" />
       <option name="METHOD_NAME" value="" />
-      <option name="VM_PARAMETERS" value="-ea  -Durl=&quot;https://www.argos.co.uk/&quot; " />
+      <option name="VM_PARAMETERS" value="-ea   " />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,10 +288,12 @@
     <history-entry file="RunCucumberClasstest - 2019.03.12 at 21h 41m 40s.xml">
       <configuration name="RunCucumberClasstest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunCucumberClasstest - 2019.03.12 at 21h 45m 10s.xml">
+      <configuration name="RunCucumberClasstest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -359,14 +363,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/pages/HeaderPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1436" />
       </provider>
     </entry>
   </component>
