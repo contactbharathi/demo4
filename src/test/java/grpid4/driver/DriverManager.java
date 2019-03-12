@@ -2,9 +2,7 @@ package grpid4.driver;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -13,6 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import cucumber.api.Scenario;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -89,9 +88,6 @@ public class DriverManager {
         }
     }
 
-
-
-
     public Boolean waitUntilElementInvisible(By by) {
         return new WebDriverWait(driver, 15).until(ExpectedConditions.invisibilityOfElementLocated(by));
     }
@@ -102,10 +98,9 @@ public class DriverManager {
         return new WebDriverWait(driver,10).until(
                 ExpectedConditions.elementToBeClickable(element));
     }
-
-
-
-
-
-}
+    public void takeScreenShot(Scenario scenario) {
+        byte[] screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        scenario.embed(screenShot, "image/png");
+    }
+}//class
 

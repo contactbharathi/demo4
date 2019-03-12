@@ -3,6 +3,8 @@ package grpid4;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import grpid4.driver.DriverManager;
+import cucumber.api.Scenario;
+
 
 public class Hooks extends DriverManager {
 
@@ -28,8 +30,14 @@ public class Hooks extends DriverManager {
     @After
 
 
-    public void tearDown() {
-//        driverManager.closeBrowser();
+    public void tearDown(Scenario scenario) {
+
+
+        if(scenario.isFailed()){
+            driverManager.takeScreenShot(scenario);
+        }
+
+        driverManager.closeBrowser();
     }
 }
 
