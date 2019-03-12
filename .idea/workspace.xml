@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ac5081-eaf0-431b-aa17-6ecc907a34fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClasstest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClasstest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -216,7 +216,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552427907782" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552428461731" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -239,7 +239,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberClasstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunCucumberClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo4" />
       <extension name="coverage">
         <pattern>
@@ -250,7 +250,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (4)" />
       <option name="PACKAGE_NAME" value="grpid4" />
-      <option name="MAIN_CLASS_NAME" value="grpid4.RunCucumberClasstest" />
+      <option name="MAIN_CLASS_NAME" value="grpid4.RunCucumberClass" />
       <option name="METHOD_NAME" value="" />
       <option name="VM_PARAMETERS" value="-ea   " />
       <option name="PARAMETERS" value="" />
@@ -293,7 +293,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -327,7 +328,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClasstest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/grpid4/RunCucumberClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />

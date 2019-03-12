@@ -13,6 +13,6 @@ import org.junit.runner.RunWith;
         strict = false,
         plugin = {"pretty","json:target/cucumber.json"})
 
-public class RunCucumberClasstest
+public class RunCucumberClass
 {
 }
