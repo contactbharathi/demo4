@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
         tags = "@wip",
-       strict = false,
+        strict = false,
         plugin = {"pretty","json:target/cucumber.json"})
 
 public class RunCucumberClasstest
