@@ -3,7 +3,7 @@ Feature: Search
   I want to search for product
   So that i can view results
 
-  @regression
+  @wip
   Scenario: Search for a product
     Given I am on homepage
     When  I search for a product "nike"

@@ -4,7 +4,7 @@ Feature: Filter
   So that I can view the results based on Filter
 
 
-  @wip
+  @regression
   Scenario: Search for a product
     Given I am on homepage
     When  I search for a product "nike"
