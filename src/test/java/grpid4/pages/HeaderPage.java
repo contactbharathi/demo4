@@ -8,7 +8,7 @@ public class HeaderPage extends DriverManager {
 
     public static String searchItem;
 
-    @FindBy(id = "searchTerm")
+    @FindBy(id = "searchTerm1")
     private WebElement searchTxtBox;
 
     @FindBy(className = "argos-header__search-button")
