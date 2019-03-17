@@ -2,6 +2,8 @@ package grpid4.driver;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -20,20 +22,32 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 
+
 public class DriverManager {
 
     //Amut
+
+
     public static WebDriver driver;
+
+    Logger log = Logger.getLogger(DriverManager.class);
+
+
+
     private String browser = "firefox";
+
 
     public DriverManager(){
         PageFactory.initElements(driver,this);
+
+
     }
 
         public void  runOnLocalHost()
         {
         switch (browser) {
             case "ie":
+
                 WebDriverManager.iedriver().setup();
                 driver = new InternetExplorerDriver();
                 break;
@@ -42,6 +56,9 @@ public class DriverManager {
                 driver = new ChromeDriver();
                 break;
             default:
+                log.info("login into  firefox");
+                log.error("login into  firefox without error");
+
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
         }
